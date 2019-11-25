@@ -1,29 +1,6 @@
-# my-app
+# 公交管理系统前端（基于vue+elementUI）
 
-## Project setup
-```
-npm install
-```
+## 说明
+- 目前仍有一些未解决的bug，但不影响使用；
+- 目前还并不能自适应屏幕尺寸
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
