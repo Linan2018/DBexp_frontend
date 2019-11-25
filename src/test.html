@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+	<script>"./main.js"</script>
+</head>
+<body>
+<i class="el-icon-edit"></i>
+<i class="el-icon-share"></i>
+<i class="el-icon-delete"></i>
+<el-button type="primary" icon="el-icon-search">搜索</el-button>
+
+<template>
+    <el-radio v-model="radio" label="1">备选项</el-radio>
+    <el-radio v-model="radio" label="2">备选项</el-radio>
+</template>
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return { visible: false }
+        }
+    });
+    export default {
+        data () {
+            return {
+                radio: '1'
+            };
+        }
+    }
+</script>
+</html>
