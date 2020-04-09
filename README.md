@@ -30,3 +30,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+---
+
+注：[后端](https://github.com/Linan2018/DBexp_frontend)
