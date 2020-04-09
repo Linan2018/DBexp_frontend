@@ -1,5 +1,8 @@
 # 公交管理系统前端（基于Vue+elementUI）
 
+---
+
+注：[后端](https://github.com/Linan2018/DBexp_backend)
 
 ---
 
@@ -32,6 +35,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
----
 
-注：[后端](https://github.com/Linan2018/DBexp_frontend)
